@@ -27,6 +27,7 @@ public class JSONFileRead {
 		
 		JSONObject j1  = (JSONObject) object3;
 		System.out.println(j1.get("Name"));
+		System.out.println(j1.get("Address"));
 
 	}
 
