@@ -45,12 +45,6 @@ public class JSONFileCreation extends JSONFileRead {
 		writer.flush();
 	}
 	
-	public static void main(String[] args) throws IOException, ParseException {
-		JSONFileCreation jsonFileCreation = new JSONFileCreation();
-		//jsonFileCreation.createJSonFile();
-		jsonFileCreation.readJSONFile();
-		
-		
-	}
+	
 
 }
